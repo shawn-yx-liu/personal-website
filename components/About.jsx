@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div className="about">
-            <p className="about-tag">About me</p>
+        <div className="page">
+            <p className="tag">About me</p>
             <img className="about-portrait" src="../images/portrait_Hawaii.JPG" />
             <h2 className="about-header">Who am I?</h2>
             <p className="about-text">

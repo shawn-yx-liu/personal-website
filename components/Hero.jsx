@@ -2,9 +2,11 @@ import React from 'react';
 
 export default function Hero() {
     return (
-        <div className="hero">
-            <img className="hero-image" src="../images/portrait_headshot.png" />
-            <div className="hero-border"></div>
+        <div className="page">
+            <div className="hero-image-container">
+                <img className="hero-image" src="../images/portrait_headshot.png" />
+                <div className="hero-border"></div>
+            </div>
             <div className="hero-text">
                 <h1 className="hero-name">Hey, I'm Shawn</h1>
                 <p>
@@ -12,7 +14,7 @@ export default function Hero() {
                     I have been creating web applications for 2 years and am always excited to explore new frontend technologies.
                 </p>
                 <div className="hero-location">
-                    <img alt="Headshot of Shawn" className="hero-location-icon" src="../icons/location.svg" />
+                    <img alt="Location Pin" className="hero-location-icon" src="../icons/location.svg" />
                     <p>Palo Alto, California</p>
                 </div>
                 <div className="hero-socials">
