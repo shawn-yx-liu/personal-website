@@ -64,3 +64,33 @@ p {
     align-items: center;
     gap: 0.25em;
 }
+
+/* About styling */
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-tag {
+    align-self: center;
+    margin-top: 8em;
+    padding: 0.25em 1.25em;
+    border-radius: 0.75rem;
+    background: #E5E7EB;
+}
+
+.about-portrait {
+    align-self: center;
+    width: 15em;
+    margin-top: 1em;
+    border: 8px solid var(--Gray-50, #F9FAFB);
+}
+
+.about-header {
+    margin: 3em 0 1.5em 0;
+    font-size: 1.5rem;
+}
+
+.about-text {
+    margin-top: 0;
+}
