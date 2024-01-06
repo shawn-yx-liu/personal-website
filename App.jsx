@@ -3,15 +3,21 @@ import Components from './components';
 
 export default function App() {
     return (
-        <div className="app">
-            <Components.Header />
-            <Components.Hero />
-            <Components.About />
-            <Components.Skills />
-            <Components.Experience />
-            <Components.Projects />
-            <Components.Contact />
-            <Components.Footer />
+        <div className="body">
+            <header>
+                <Components.Header />
+            </header>
+            <main>
+                <Components.Hero />
+                <Components.About />
+                <Components.Skills />
+                <Components.Experiences />
+                <Components.Projects />
+                <Components.Contact />
+            </main>
+            <footer>
+                <Components.Footer />
+            </footer>
         </div>
     )
 }

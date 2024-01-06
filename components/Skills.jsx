@@ -15,12 +15,14 @@ export default function Skills() {
     return (
         <div className="page">
             <p className="tag">Skills</p>
-            <p>The skills, tools, and technologies I am really good at:</p>
+            <p>The tools and technologies I'm really good at:</p>
             <div className="skills-container">
                 <Skill logo="../logos/javascript.svg" link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" skill="Javascript" />
                 <Skill logo="../logos/typescript.svg" link="https://www.typescriptlang.org/" skill="Typescript" />
                 <Skill logo="../logos/html.svg" link="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" skill="HTML" />
                 <Skill logo="../logos/sass.svg" link="https://sass-lang.com/" skill="Sass/Scss" />
+                <Skill logo="../logos/c-sharp.svg" link="https://dotnet.microsoft.com/en-us/languages/csharp" skill="C#/.Net" />
+                <Skill logo="../logos/python.svg" link="https://www.python.org/" skill="Python" />
                 <Skill logo="../logos/react.svg" link="https://react.dev/" skill="React" />
                 <Skill logo="../logos/angular.svg" link="https://angular.io/" skill="Angular" />
                 <Skill logo="../logos/vite.svg" link="https://vitejs.dev/" skill="Vite" />

@@ -2,13 +2,12 @@
     box-sizing: border-box;
 }
 
-body {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ffffff;
     font-family: "Inter", sans-serif;
-    max-width: 1216px;
 }
 
 h1 {
@@ -26,7 +25,12 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5em 1em;
+    margin: 5em 0em;
+    padding: 1em max(1em, calc((100% - 1216px)/2));
+}
+
+.page-even {
+    background-color: #f8fbfb;
 }
 
 .tag {
@@ -106,8 +110,8 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 1.5em;
-    gap: 2em;
+    margin: 1.5em 2em;
+    gap: 1em 3em;
 }
 
 .skill {
@@ -125,4 +129,43 @@ p {
 .skill-logo:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+/* Experiences styling */
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-self: start;
+    margin: 1.5em 0;
+    padding: 2em;
+    background-color: #fff;
+    color: #374151;
+    line-height: 1.5em;
+    border-radius: 0.75em;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+
+.experience-title {
+    color: #111827;
+    margin: 0;
+}
+
+.experience-logo {
+    width: 100px;
+}
+
+.experience-logo:hover {
+    cursor: pointer;
+}
+
+.experiences-btn {
+    color: #FEFFFE;
+    background-color: #7E56C3;
+    text-decoration: none;
+    padding: 0.65em 1em;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5em;
 }

@@ -2,7 +2,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
-import Experience from "./Experience";
+import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -12,7 +12,7 @@ const Components = {
     Hero: Hero,
     About: About,
     Skills: Skills,
-    Experience: Experience,
+    Experiences: Experiences,
     Projects: Projects,
     Contact: Contact,
     Footer: Footer

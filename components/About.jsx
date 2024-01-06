@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div className="page">
+        <div className="page page-even">
             <p className="tag">About me</p>
             <img className="about-portrait" src="../images/portrait_Hawaii.JPG" />
             <h2 className="about-header">Who am I?</h2>
