@@ -31,7 +31,7 @@ export default function Experiences() {
                 </ul>
             </Experience>
 
-            <a className="experiences-btn" href="#" target="_blank">VIEW DETAILED WORK EXPERIENCE</a>
+            {/* <a className="experiences-btn" href="#" target="_blank">VIEW DETAILED WORK EXPERIENCE</a> */}
         </div>
     )
 }
