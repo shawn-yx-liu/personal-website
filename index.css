@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .body {
@@ -77,11 +78,16 @@ button {
 }
 
 .dark .icon {
-    filter: invert(95%) sepia(7%) saturate(171%) hue-rotate(176deg) brightness(90%) contrast(92%) !important;
+    filter: invert(95%) sepia(7%) saturate(171%) hue-rotate(176deg) brightness(90%) contrast(92%);
 }
 
 .dark .card {
-    background-color: #1F2937 !important;
+    background-color: #1F2937;
+}
+
+.dark .resume-btn {
+    color: #111827;
+    background-color: #F9FAFB;
 }
 
 .header-dark {
@@ -89,12 +95,25 @@ button {
 }
 
 .header-dark .header-link-container {
-    border-right: 1px solid #D1D5DB !important;
+    border-right: 1px solid #D1D5DB;
 }
 
 .sidebar-links-dark {
     border-top: 1px solid #1F2937 !important;
     border-bottom: 1px solid #1F2937 !important;
+}
+
+.resume-btn {
+    width: 100%;
+    color: #F9FAFB;
+    font-weight: 500;
+    background-color: #111827;
+    border-radius: 0.75em;
+    padding: 0.6em 1.2em;
+}
+
+.resume-btn:hover {
+    cursor: pointer;
 }
 
 /* Header styling */
@@ -132,7 +151,6 @@ button {
     height: 100%;
     display: flex;
     gap: 1.5em;
-    margin-right: 1.5em;
     padding-right: 1.5em;
     border-right: 1px solid #111827;
 }
@@ -144,6 +162,10 @@ button {
 
 .header-link:hover {
     color: #111827;
+}
+
+.header-theme-btn {
+    margin: 0 1.5em;
 }
 
 .header-theme-btn:hover {
@@ -443,8 +465,8 @@ button {
 
 .contact-copied {
     position: absolute;
-    bottom: 1.5em;
-    left: -1em;
+    bottom: 2em;
+    left: -1.5em;
     background-color: #E5E7EB;
     padding: 0.25em 0.5em;
     border-radius: 0.75em;

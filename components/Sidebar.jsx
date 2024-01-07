@@ -29,6 +29,9 @@ export default function Sidebar({dark, sidebarOpen, toggle, toggleTheme}) {
                     <img className="sidebar-theme icon" src={dark ? "../icons/moon.svg" : "../icons/sun.svg"} />
                 </button>
             </div>
+            <div className="sidebar-row">
+                <button className="resume-btn" onClick={() => window?.open("../files/shawn-resume-2023.pdf", "_blank")}>Download Resume</button>
+            </div>
         </div>
     )
 }

@@ -24,7 +24,7 @@ export default function Contact({dark}) {
                 <p className="contact-text">shawn.yx.liu@gmail.com</p>
                 <button className="contact-btn" onClick={() => handleCopyClick("shawn.yx.liu@gmail.com")}>
                     <img className="contact-icon icon" src="../icons/copy.svg" />
-                    {isCopied === 1 && <p className="contact-copied">Copied!</p>}
+                    {isCopied === 1 && <p className="contact-copied tag">Copied!</p>}
                 </button>
             </div>
             <div className="contact-row">
@@ -32,7 +32,7 @@ export default function Contact({dark}) {
                 <p className="contact-text">+1 (408)839-7241</p>
                 <button className="contact-btn" onClick={() => handleCopyClick("+1 (408)839-7241")}>
                     <img className="contact-icon icon" src="../icons/copy.svg" />
-                    {isCopied === 2 && <p className="contact-copied">Copied!</p>}
+                    {isCopied === 2 && <p className="contact-copied tag">Copied!</p>}
                 </button>
             </div>
             <p>You may also find me on these platforms!</p>
