@@ -4,7 +4,6 @@ import Components from './components';
 export default function App() {
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
     const [darkMode, setDarkMode] = React.useState(false);
-    console.log("darkMode: ", darkMode);
 
     function toggleSidebar() {
         setSidebarOpen(prevSidebarOpen => !prevSidebarOpen);

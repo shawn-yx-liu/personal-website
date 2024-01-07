@@ -32,7 +32,7 @@ export default function Experiences({dark}) {
         <div className={`page page-even ${dark ? "dark dark-even" : ""}`} id="experiences">
             <p className="tag">Experience</p>
             <p>Here's where I've worked at:</p>
-            <Experience logo="../logos/omnicell.svg" link="https://www.omnicell.com/" dates="May 2021 - Present" title="Software Engineer I">
+            <Experience logo="../logos/omnicell.svg" link="https://www.omnicell.com/" dates="May 2021 - Present" title="Junior Fullstack Developer">
                 <ul>
                     <li><p>Designed and developed web apps to support large-scale routing of pharmaceutical drugs.</p></li>
                     <li><p>Built a desktop app acting as a hardware simulator to support remote automated testing.</p></li>
