@@ -4,7 +4,7 @@ export default function Hero({dark}) {
     return (
         <div className={`page hero ${dark ? "dark" : ""}`} id="hero">
             <div className="hero-image-container">
-                <img className="hero-image" src="../images/portrait_beach.JPG" />
+                <img className="hero-image" src="../images/portrait_LA.jpg" />
                 <div className="hero-border"></div>
             </div>
             <div className="hero-text">

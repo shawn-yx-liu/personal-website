@@ -246,7 +246,7 @@ button {
 /* Hero styling */
 .hero {
     padding-top: 8em;
-    height: max(100vh);
+    height: max(100%, 100vh);
 }
 
 .hero-image-container {
