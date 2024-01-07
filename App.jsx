@@ -2,8 +2,9 @@ import React from 'react'
 import Components from './components';
 
 export default function App() {
+    const theme = localStorage.getItem("theme") || "light";
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
-    const [darkMode, setDarkMode] = React.useState(false);
+    const [darkMode, setDarkMode] = React.useState(theme === "dark");
 
     function toggleSidebar() {
         setSidebarOpen(prevSidebarOpen => !prevSidebarOpen);
@@ -12,6 +13,14 @@ export default function App() {
     function toggleDarkMode() {
         setDarkMode(prevDarkMode => !prevDarkMode);
     }
+
+    React.useEffect(() => {
+        if (darkMode) {
+            localStorage.setItem("theme", "dark");
+        } else {
+            localStorage.setItem("theme", "light");
+        }
+    }, [darkMode])
 
     return (
         <div className="body">
