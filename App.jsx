@@ -16,7 +16,7 @@ export default function App() {
     return (
         <div className="body">
             <header>
-                <Components.Header dark={darkMode} toggle={toggleSidebar} />
+                <Components.Header dark={darkMode} toggle={toggleSidebar} toggleTheme={toggleDarkMode} />
             </header>
             <main>
                 <Components.Hero dark={darkMode} />

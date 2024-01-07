@@ -25,7 +25,7 @@ export default function Sidebar({dark, sidebarOpen, toggle, toggleTheme}) {
             </div>
             <div className="sidebar-row">
                 <p>Switch Theme</p>
-                <button className="sidebar-theme-btn" onClick={toggleTheme}>
+                <button onClick={toggleTheme}>
                     <img className="sidebar-theme icon" src={dark ? "../icons/moon.svg" : "../icons/sun.svg"} />
                 </button>
             </div>
