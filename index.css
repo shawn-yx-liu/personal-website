@@ -296,7 +296,7 @@ button {
 
 .hero-social-icon, .contact-social-icon {
     width: 2.25em;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .hero-social-icon:hover, .contact-social-icon:hover {
