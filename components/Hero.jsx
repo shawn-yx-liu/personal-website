@@ -15,7 +15,7 @@ export default function Hero() {
                 </p>
                 <div className="hero-location">
                     <img alt="Location Pin" className="hero-location-icon" src="../icons/location.svg" />
-                    <p>Palo Alto, California</p>
+                    <p>Stanford, California</p>
                 </div>
                 <div className="hero-socials">
                     <a href="https://github.com/shawn8913" target="_blank">

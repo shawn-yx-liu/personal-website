@@ -397,7 +397,7 @@ p {
         margin-top: 0;
     }
     .about-text-container {
-        margin-left: 3em;
+        margin-left: 6em;
     }
 
     .experience {
@@ -410,7 +410,10 @@ p {
 
     .project {
         flex-direction: row;
-        gap: 5em;
+        gap: 8em;
+    }
+    .project-reverse {
+        flex-direction: row-reverse;
     }
     .project-image {
         margin-bottom: 0;

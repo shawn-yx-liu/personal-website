@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Project({title, image, description, link, githubLink, skills}) {
+function Project({parity, title, image, description, link, githubLink, skills}) {
     return (
-        <div className="project">
+        <div className={`project ${parity === "1" ? "project-reverse" : ""}`}>
             <a href={link} target="_blank">
                 <img className="project-image" src={image} />
             </a>
@@ -27,6 +27,7 @@ export default function Projects() {
             <p className="tag">Projects</p>
             <p>Some of my favorite projects:</p>
             <Project 
+                parity="0"
                 title="Brain Blitz" 
                 image="../images/brain-blitz.png"
                 link="https://brain-blitz-shawnliu.netlify.app/"
@@ -36,6 +37,7 @@ export default function Projects() {
             />
 
             <Project 
+                parity="1"
                 title="User Dashboard" 
                 image="../images/user-dashboard.png"
                 link="https://user-dashboard-shawnliu.netlify.app/"
