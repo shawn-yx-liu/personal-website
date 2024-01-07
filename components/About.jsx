@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function About() {
+export default function About({dark}) {
     return (
-        <div className="page page-even about" id="about">
+        <div className={`page page-even about ${dark ? "dark dark-even" : ""}`} id="about">
             <p className="tag">About me</p>
             <div className="about-container">
                 <img className="about-portrait" src="../images/portrait_Hawaii.JPG" />

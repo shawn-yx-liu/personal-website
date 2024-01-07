@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project({parity, title, image, description, link, githubLink, skills}) {
     return (
-        <div className={`project ${parity === "1" ? "project-reverse" : ""}`}>
+        <div className={`card project ${parity === "1" ? "project-reverse" : ""}`}>
             <a href={link} target="_blank">
                 <img className="project-image" src={image} />
             </a>
@@ -21,9 +21,9 @@ function Project({parity, title, image, description, link, githubLink, skills}) 
     )
 }
 
-export default function Projects() {
+export default function Projects({dark}) {
     return (
-        <div className="page" id="projects">
+        <div className={`page ${dark ? "dark" : ""}`} id="projects">
             <p className="tag">Projects</p>
             <p>Some of my favorite projects:</p>
             <Project 

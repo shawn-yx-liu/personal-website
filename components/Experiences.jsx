@@ -5,7 +5,7 @@ function Experience({logo, link, dates, title, children}) {
     const windowSize = useWindowSize();
 
     return windowSize <= 768 ? (
-        <div className="experience">
+        <div className="card experience">
             <a href={link} target="_blank">
                 <img className="experience-logo" src={logo} />
             </a>
@@ -14,11 +14,11 @@ function Experience({logo, link, dates, title, children}) {
             {children}
         </div>
     ) : (
-        <div className="experience">
+        <div className="card experience">
             <a href={link} target="_blank">
                 <img className="experience-logo" src={logo} />
             </a>
-            <div className="experience-wide-2">
+            <div className="experience-wide">
                 <h3 className="experience-title">{title}</h3>
                 {children}
             </div>
@@ -27,21 +27,21 @@ function Experience({logo, link, dates, title, children}) {
     )
 }
 
-export default function Experiences() {
+export default function Experiences({dark}) {
     return (
-        <div className="page page-even" id="experiences">
+        <div className={`page page-even ${dark ? "dark dark-even" : ""}`} id="experiences">
             <p className="tag">Experience</p>
             <p>Here's where I've worked at:</p>
             <Experience logo="../logos/omnicell.svg" link="https://www.omnicell.com/" dates="May 2021 - Present" title="Software Engineer I">
                 <ul>
-                    <li>Designed and developed web apps to support large-scale routing of pharmaceutical drugs.</li>
-                    <li>Built a desktop app acting as a hardware simulator to support remote automated testing.</li>
+                    <li><p>Designed and developed web apps to support large-scale routing of pharmaceutical drugs.</p></li>
+                    <li><p>Built a desktop app acting as a hardware simulator to support remote automated testing.</p></li>
                 </ul>
             </Experience>
-            <Experience logo="../logos/hitachi.svg" link="https://www.hitachi.com/" dates="May 2020 - August 2020" title="Software Process Management Intern">
+            <Experience logo="../logos/hitachi.svg" link="https://www.hitachienergy.com/us/en" dates="May 2020 - August 2020" title="Software Process Management Intern">
                 <ul>
-                    <li>Worked with product director to create and document agile workflow for software development process.</li>
-                    <li>Brainstormed new ideas and proposed optimizations to minimize resource bottlenecks using a value-based model.</li>
+                    <li><p>Worked with product director to create and document agile workflow for software development process.</p></li>
+                    <li><p>Brainstormed new ideas and proposed optimizations to minimize resource bottlenecks using a value-based model.</p></li>
                 </ul>
             </Experience>
 

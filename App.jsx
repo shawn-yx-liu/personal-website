@@ -3,27 +3,32 @@ import Components from './components';
 
 export default function App() {
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
+    const [darkMode, setDarkMode] = React.useState(false);
+    console.log("darkMode: ", darkMode);
 
     function toggleSidebar() {
-        setSidebarOpen(prevSidebarOpen => !prevSidebarOpen)
+        setSidebarOpen(prevSidebarOpen => !prevSidebarOpen);
+    }
+
+    function toggleDarkMode() {
+        setDarkMode(prevDarkMode => !prevDarkMode);
     }
 
     return (
         <div className="body">
             <header>
-                <Components.Header toggle={toggleSidebar} />
+                <Components.Header dark={darkMode} toggle={toggleSidebar} />
             </header>
             <main>
-                <Components.Hero />
-                <Components.About />
-                <Components.Skills />
-                <Components.Experiences />
-                <Components.Projects />
-                <Components.Contact />
+                <Components.Hero dark={darkMode} />
+                <Components.About dark={darkMode} />
+                <Components.Skills dark={darkMode} />
+                <Components.Experiences dark={darkMode} />
+                <Components.Projects dark={darkMode} />
+                <Components.Contact dark={darkMode} />
             </main>
-            <Components.Sidebar sidebarOpen={sidebarOpen} toggle={toggleSidebar} />
+            <Components.Sidebar dark={darkMode} sidebarOpen={sidebarOpen} toggle={toggleSidebar} toggleTheme={toggleDarkMode}/>
             <div className={`overlay ${sidebarOpen ? 'show' : ''}`} onClick={toggleSidebar}></div>
-
         </div>
-    )
+    );
 }

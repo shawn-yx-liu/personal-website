@@ -11,9 +11,9 @@ function Skill({logo, link, skill}) {
     )
 }
 
-export default function Skills() {
+export default function Skills({dark}) {
     return (
-        <div className="page">
+        <div className={`page ${dark ? "dark" : ""}`}>
             <p className="tag">Skills</p>
             <p>The tools and technologies I'm really good at:</p>
             <div className="skills-container">
@@ -27,7 +27,7 @@ export default function Skills() {
                 <Skill logo="../logos/angular.svg" link="https://angular.io/" skill="Angular" />
                 <Skill logo="../logos/vite.svg" link="https://vitejs.dev/" skill="Vite" />
                 <Skill logo="../logos/sql-server.svg" link="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" skill="SQL Server" />
-                <Skill logo="../logos/cypress.svg" link="https://www.cypress.io/" skill="Cypress" />
+                <Skill logo={dark ? "../logos/cypress-light.svg" : "../logos/cypress.svg"} link="https://www.cypress.io/" skill="Cypress" />
                 <Skill logo="../logos/git.svg" link="https://git-scm.com/" skill="Git" />
             </div>
         </div>
