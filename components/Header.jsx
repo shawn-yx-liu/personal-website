@@ -1,9 +1,14 @@
 import React from 'react';
 
-export default function Header() {
+export default function Header({toggle}) {
     return (
         <div className="header">
-            <h1>Header here!</h1>
+            <button className="header-btn">
+                <a className="header-left" href=".">&lt;Shawn /&gt;</a>
+            </button>
+            <button className="header-hamburger" onClick={toggle}>
+                <img src="../icons/hamburger.svg" />
+            </button>
         </div>
     )
 }

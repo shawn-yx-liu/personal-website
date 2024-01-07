@@ -6,14 +6,16 @@ function Project({title, image, description, link, githubLink, skills}) {
             <a href={link} target="_blank">
                 <img className="project-image" src={image} />
             </a>
-            <h3 className="project-title">{title}</h3>
-            <p className="project-description">{description}</p>
-            <div className="project-skills-container">
-                {skills.map(skill => <p className="tag" key={skill}>{skill}</p>)}
-            </div>
-            <div className="project-links-container">
-                <a className="project-link" href={link} target="_blank">View Site</a>
-                <a className="project-link" href={githubLink} target="_blank">View Repo</a>
+            <div className="project-text">
+                <h3 className="project-title">{title}</h3>
+                <p className="project-description">{description}</p>
+                <div className="project-skills-container">
+                    {skills.map(skill => <p className="tag" key={skill}>{skill}</p>)}
+                </div>
+                <div className="project-links-container">
+                    <a className="project-link" href={link} target="_blank">View Site</a>
+                    <a className="project-link" href={githubLink} target="_blank">View Repo</a>
+                </div>
             </div>
         </div>
     )
@@ -21,7 +23,7 @@ function Project({title, image, description, link, githubLink, skills}) {
 
 export default function Projects() {
     return (
-        <div className="page">
+        <div className="page" id="projects">
             <p className="tag">Projects</p>
             <p>Some of my favorite projects:</p>
             <Project 

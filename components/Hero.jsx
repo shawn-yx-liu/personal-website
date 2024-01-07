@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Hero() {
     return (
-        <div className="page">
+        <div className="page hero" id="hero">
             <div className="hero-image-container">
-                <img className="hero-image" src="../images/portrait_headshot.png" />
+                <img className="hero-image" src="../images/portrait_beach.JPG" />
                 <div className="hero-border"></div>
             </div>
             <div className="hero-text">

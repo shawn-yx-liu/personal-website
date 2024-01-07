@@ -16,7 +16,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="page page-even contact">
+        <div className="page page-even contact" id="contact">
             <p className="tag">Get in touch</p>
             <p>What's next? Feel free to reach out to me if you're looking for a developer or simply want to connect.</p>
             <div className="contact-row">

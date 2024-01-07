@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Sidebar from "./Sidebar";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
@@ -9,6 +10,7 @@ import Footer from "./Footer";
 
 const Components = {
     Header: Header,
+    Sidebar: Sidebar,
     Hero: Hero,
     About: About,
     Skills: Skills,

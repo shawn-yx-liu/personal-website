@@ -1,7 +1,10 @@
 import React from 'react';
+import { useWindowSize } from '@uidotdev/usehooks';
 
 function Experience({logo, link, dates, title, children}) {
-    return (
+    const windowSize = useWindowSize();
+
+    return windowSize <= 768 ? (
         <div className="experience">
             <a href={link} target="_blank">
                 <img className="experience-logo" src={logo} />
@@ -10,12 +13,23 @@ function Experience({logo, link, dates, title, children}) {
             <h3 className="experience-title">{title}</h3>
             {children}
         </div>
+    ) : (
+        <div className="experience">
+            <a href={link} target="_blank">
+                <img className="experience-logo" src={logo} />
+            </a>
+            <div className="experience-wide-2">
+                <h3 className="experience-title">{title}</h3>
+                {children}
+            </div>
+            <p className="experience-date">{dates}</p>
+        </div>
     )
 }
 
 export default function Experiences() {
     return (
-        <div className="page page-even">
+        <div className="page page-even" id="experiences">
             <p className="tag">Experience</p>
             <p>Here's where I've worked at:</p>
             <Experience logo="../logos/omnicell.svg" link="https://www.omnicell.com/" dates="May 2021 - Present" title="Software Engineer I">
