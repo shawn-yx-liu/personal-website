@@ -15,9 +15,6 @@ export default function App() {
                 <Components.Projects />
                 <Components.Contact />
             </main>
-            <footer>
-                <Components.Footer />
-            </footer>
         </div>
     )
 }

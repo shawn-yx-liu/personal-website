@@ -38,7 +38,7 @@ p {
     margin: 0.5em;
     padding: 0.25em 1.25em;
     border-radius: 0.75rem;
-    background: #E5E7EB;
+    background-color: #E5E7EB;
 }
 
 /* Header styling */
@@ -80,10 +80,11 @@ p {
     margin-right: 0.5em;
 }
 
-.hero-socials {
+.hero-socials, .contact-socials {
     display: flex;
     align-items: center;
-    gap: 0.25em;
+    margin-top: 0.5em;
+    gap: 1em;
 }
 
 /* About styling */
@@ -206,4 +207,43 @@ p {
 
 .project-link:hover {
     color: #7E56C3;
+}
+
+/* Contact styling */
+.contact {
+    margin-bottom: 0;
+    padding-bottom: 2em;
+}
+
+.contact-row {
+    display: flex;
+}
+
+.contact-icon {
+    width: 1.5rem;
+}
+
+.contact-text {
+    margin: 0.25em 1.2em;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contact-btn {
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+}
+
+.contact-copied {
+    position: absolute;
+    bottom: 1.5em;
+    left: -1em;
+    background-color: #E5E7EB;
+    padding: 0.25em 0.5em;
+    border-radius: 0.75em;
 }
