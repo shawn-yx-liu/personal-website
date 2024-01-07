@@ -240,6 +240,15 @@ button {
     gap: 1em;
 }
 
+.hero-social-icon, .contact-social-icon {
+    width: 2.25em;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-social-icon:hover, .contact-social-icon:hover {
+    transform: scale(1.1);
+}
+
 /* About styling */
 .about, .about-container {
     display: flex;
