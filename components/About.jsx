@@ -3,7 +3,7 @@ import React from 'react';
 export default function About({dark}) {
     return (
         <div className={`page page-even about ${dark ? "dark dark-even" : ""}`} id="about">
-            <p className="tag">About me</p>
+            <p className="tag tag-lg">About me</p>
             <div className="about-container">
                 <img className="about-portrait" src="../images/portrait_Hawaii.jpg" />
                 <div className="about-text-container">

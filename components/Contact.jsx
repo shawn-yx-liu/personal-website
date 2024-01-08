@@ -17,7 +17,7 @@ export default function Contact({dark}) {
 
     return (
         <div className={`page page-even contact ${dark ? "dark dark-even" : ""}`} id="contact">
-            <p className="tag">Get in touch</p>
+            <p className="tag tag-lg">Get in touch</p>
             <p>What's next? Feel free to reach out to me if you're looking for a developer or simply want to connect.</p>
             <div className="contact-row">
                 <img className="contact-icon icon" src="../icons/email.svg" />

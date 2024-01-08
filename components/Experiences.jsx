@@ -30,7 +30,7 @@ function Experience({logo, link, dates, title, children}) {
 export default function Experiences({dark}) {
     return (
         <div className={`page page-even ${dark ? "dark dark-even" : ""}`} id="experiences">
-            <p className="tag">Experience</p>
+            <p className="tag tag-lg">Experience</p>
             <p>Here's where I've worked at:</p>
             <Experience logo="../logos/omnicell.svg" link="https://www.omnicell.com/" dates="May 2021 - Present" title="Junior Fullstack Developer">
                 <ul>

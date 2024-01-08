@@ -24,7 +24,7 @@ function Project({parity, title, image, description, link, githubLink, skills}) 
 export default function Projects({dark}) {
     return (
         <div className={`page ${dark ? "dark" : ""}`} id="projects">
-            <p className="tag">Projects</p>
+            <p className="tag tag-lg">Projects</p>
             <p>Some of my favorite projects:</p>
             <Project 
                 parity="0"

@@ -46,6 +46,11 @@ p {
     background-color: #E5E7EB;
 }
 
+.tag-lg {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
 button {
     border: none;
     background-color: transparent;
@@ -297,7 +302,7 @@ button {
 .hero-social-icon, .contact-social-icon {
     width: 2.25em;
     transition: transform 0.3s ease-in-out;
-}
+    }
 
 .hero-social-icon:hover, .contact-social-icon:hover {
     transform: scale(1.1);
@@ -320,7 +325,7 @@ button {
 .about-header {
     margin: 3em 0 1.5em 0;
     font-size: 1.5rem;
-}
+    }
 
 .about-text-container {
     margin: 1em;
@@ -526,13 +531,16 @@ button {
 
     .project {
         flex-direction: row;
-        gap: 8em;
+        justify-content: space-between;
     }
     .project-reverse {
         flex-direction: row-reverse;
     }
     .project-image {
         margin-bottom: 0;
+    }
+    .project-text {
+        margin: 0 3em;
     }
 }
 

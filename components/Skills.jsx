@@ -14,7 +14,7 @@ function Skill({logo, link, skill}) {
 export default function Skills({dark}) {
     return (
         <div className={`page ${dark ? "dark" : ""}`}>
-            <p className="tag">Skills</p>
+            <p className="tag tag-lg">Skills</p>
             <p>The tools and technologies I'm really good at:</p>
             <div className="skills-container">
                 <Skill logo="../logos/javascript.svg" link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" skill="Javascript" />
