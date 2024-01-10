@@ -26,11 +26,11 @@ export default function Skills({dark}) {
                 <Skill logo="../logos/sql-server.svg" link="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" skill="SQL Server" />
                 <Skill logo="../logos/react.svg" link="https://react.dev/" skill="React" />
                 <Skill logo="../logos/angular.svg" link="https://angular.io/" skill="Angular" />
-                <Skill logo="../logos/vite.svg" link="https://vitejs.dev/" skill="Vite" />
+                <Skill logo="../logos/socket-io.svg" link="https://socket.io/" skill="Socket.io" />
+                <Skill logo="../logos/netlify.svg" link="https://www.netlify.com/" skill="Netlify" />
                 <Skill logo={dark ? "../logos/cypress-light.svg" : "../logos/cypress.svg"} link="https://www.cypress.io/" skill="Cypress" />
                 <Skill logo="../logos/git.svg" link="https://git-scm.com/" skill="Git" />
                 <Skill logo="../logos/bitbucket.svg" link="https://bitbucket.org/product" skill="Bitbucket" />
-                <Skill logo="../logos/jira.svg" link="https://www.atlassian.com/software/jira" skill="Jira" />
             </div>
         </div>
     )

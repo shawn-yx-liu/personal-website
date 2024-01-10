@@ -544,7 +544,7 @@ button {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .hero-name {
         font-size: 3.75rem;
     }
