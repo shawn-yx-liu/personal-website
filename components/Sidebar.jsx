@@ -4,7 +4,9 @@ export default function Sidebar({dark, sidebarOpen, toggle, toggleTheme}) {
     return (
         <div className={`sidebar ${sidebarOpen ? 'slide-in' : ''} ${dark ? "dark" : ""}`}>
             <div className="sidebar-header">
-                <h1>&lt;Shawn /&gt;</h1>
+                <button className="header-btn">
+                    <a className="header-left" href="."><h1>&lt;Shawn /&gt;</h1></a>
+                </button>
                 <button className="sidebar-close-btn" onClick={toggle}>
                     <img className="icon" src="../icons/close.svg"/>
                 </button>
