@@ -5,7 +5,7 @@ export default function Header({dark, toggle, toggleTheme}) {
     const windowSize = useWindowSize();
 
 
-    return windowSize.width <= 900 ? (
+    return windowSize.width <= 1260 ? (
         <div className={`header ${dark ? "dark header-dark" : ""}`}>
             <button className="header-btn">
                 <a className="header-left" href=".">&lt;Shawn /&gt;</a>

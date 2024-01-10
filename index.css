@@ -185,8 +185,8 @@ button {
 .sidebar {
     position: fixed;
     top: 0;
-    right: -300px;
-    width: 300px;
+    right: -350px;
+    width: 350px;
     height: 100vh;
     color: black;
     background-color: white;
@@ -339,7 +339,7 @@ button {
 .skills-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3em;
+    gap: 2em;
     align-items: center;
     text-align: center;
     margin: 1.5em 2em;
@@ -477,7 +477,14 @@ button {
     border-radius: 0.75em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
+    .skills-container {
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 3em;
+    }
+}
+
+@media screen and (min-width: 950px) {
     .header {
         padding: 1em max(5em, calc((100% - 1216px)/2));
     }
@@ -498,6 +505,17 @@ button {
         width: 17.5rem;
         margin-left: 3em;
     }
+}
+
+@media screen and (min-width: 1250px) {
+    .hero-name {
+        font-size: 3.75rem;
+    }
+
+    .skills-container{
+        grid-template-columns: repeat(7, 1fr);
+        column-gap: 5em;
+    }
 
     .about-container {
         flex-direction: row;
@@ -511,10 +529,6 @@ button {
     }
     .about-text-container {
         margin-left: 6em;
-    }
-
-    .skills-container {
-        grid-template-columns: repeat(5, 1fr);
     }
 
     .experience {
@@ -541,16 +555,5 @@ button {
     }
     .project-text {
         margin: 0 3em;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .hero-name {
-        font-size: 3.75rem;
-    }
-
-    .skills-container{
-        grid-template-columns: repeat(7, 1fr);
-        column-gap: 5em;
     }
 }
