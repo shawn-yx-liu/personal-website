@@ -37,10 +37,10 @@ export default function Contact({dark}) {
             </div>
             <p>You may also find me on these platforms!</p>
             <div className="contact-socials">
-                    <a href="https://github.com/shawn8913" target="_blank">
+                    <a href="https://github.com/shawn-yx-liu/" target="_blank">
                         <img className="contact-social-icon icon" src="../icons/github.svg" />
                     </a>
-                    <a href="https://www.linkedin.com/in/shawn-liu-bbaba2158/" target="_blank">
+                    <a href="https://www.linkedin.com/in/shawn-yx-liu/" target="_blank">
                         <img className="contact-social-icon icon" src="../icons/linkedin.svg" />
                     </a>
                 </div>

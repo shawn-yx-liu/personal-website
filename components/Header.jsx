@@ -38,7 +38,7 @@ export default function Header({dark, toggle, toggleTheme}) {
                     <img className="header-theme icon" src={dark ? "../icons/sun.svg" : "../icons/moon.svg"} />
                 </button>
                 <div>
-                    <button className="resume-btn" onClick={() => window?.open("../files/shawn-resume-2023.pdf", "_blank")}>Download Resume</button>
+                    <button className="resume-btn" onClick={() => window?.open("../files/shawn-resume-2024.pdf", "_blank")}>Download Resume</button>
                 </div>
             </div>
         </div>

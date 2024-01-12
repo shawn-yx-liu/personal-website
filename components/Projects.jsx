@@ -31,7 +31,7 @@ export default function Projects({dark}) {
                 title="Brain Blitz" 
                 image="../images/brain-blitz.png"
                 link="https://brain-blitz-shawnliu.netlify.app/"
-                githubLink="https://github.com/shawn8913/brain-blitz"
+                githubLink="https://github.com/shawn-yx-liu/brain-blitz"
                 description="A trivia game for testing your knowledge in a variety of topics. You can quiz yourself or compete with a friend for a higher score."
                 skills={["React", "Javascript", "HTML", "CSS", "Socket.io", "Express.js", "Vite", "Netlify", "Git"]}
             />
@@ -41,7 +41,7 @@ export default function Projects({dark}) {
                 title="User Dashboard" 
                 image="../images/user-dashboard.png"
                 link="https://user-dashboard-shawnliu.netlify.app/"
-                githubLink="https://github.com/shawn8913/user-dashboard"
+                githubLink="https://github.com/shawn-yx-liu/user-dashboard"
                 description="A Google Chrome extension akin to Momentum. You can check the time, create a todo list, and check the price of your favorite stock."
                 skills={["Javascript", "HTML", "CSS", "Vite", "Netlify", "Git"]}
             />

@@ -18,10 +18,10 @@ export default function Hero({dark}) {
                     <p>Stanford, California</p>
                 </div>
                 <div className="hero-socials">
-                    <a href="https://github.com/shawn8913" target="_blank">
+                    <a href="https://github.com/shawn-yx-liu/" target="_blank">
                         <img className="hero-social-icon icon" src="../icons/github.svg" />
                     </a>
-                    <a href="https://www.linkedin.com/in/shawn-liu-bbaba2158/" target="_blank">
+                    <a href="https://www.linkedin.com/in/shawn-yx-liu/" target="_blank">
                         <img className="hero-social-icon icon" src="../icons/linkedin.svg" />
                     </a>
                 </div>
