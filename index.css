@@ -318,14 +318,14 @@ button {
 .about-portrait {
     align-self: center;
     width: 15em;
-    margin-top: 1em;
+    margin-top: 3rem;
     /* border: 8px solid var(--Gray-50, #F9FAFB); */
 }
 
 .about-header {
-    margin: 3em 0 1.5em 0;
+    margin: 3rem 0 1.5em 0;
     font-size: 1.5rem;
-    }
+}
 
 .about-text-container {
     margin: 1em;

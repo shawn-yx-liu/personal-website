@@ -18,7 +18,7 @@ export default function About({dark}) {
                         Today, 6 years after printing my first "Hello World," my scope of work has expanded into creating cutting-edge web applications using modern frontend technologies like React, Angular, and much more.
                     </p>
                     <p>
-                        When I'm not staring at a computer screen, you can usually find me hiking in some remote trail in the Bay, sampling popup food shops, or baking a new recipe I found on Tasty.
+                        When I'm not staring at a computer screen, you can usually find me hiking some remote trail in the Bay, sampling popup food shops, or baking a new recipe I found on Tasty.
                     </p>
                 </div>
             </div>
