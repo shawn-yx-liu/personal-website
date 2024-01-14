@@ -1,4 +1,4 @@
-# personal-website
+# Personal Website
  
 This is my [personal website](https://shawnliu.dev) I built using React that showcases my personality, skills, work experience, and personal projects.
 
