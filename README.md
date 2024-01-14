@@ -1,6 +1,6 @@
 # personal-website
  
-This is my personal website I built using React that showcases my personality, skills, work experience, and personal projects.
+This is my [personal website](https://shawnliu.dev) I built using React that showcases my personality, skills, work experience, and personal projects.
 
 ### Built With
 [![Javascript][Javascript.js]][Javascript-url]\
