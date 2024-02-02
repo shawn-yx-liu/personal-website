@@ -21,16 +21,16 @@ export default function Skills({dark}) {
                 <Skill logo="../logos/typescript.svg" link="https://www.typescriptlang.org/" skill="Typescript" />
                 <Skill logo="../logos/html.svg" link="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" skill="HTML" />
                 <Skill logo="../logos/sass.svg" link="https://sass-lang.com/" skill="Sass/Scss" />
-                <Skill logo="../logos/c-sharp.svg" link="https://dotnet.microsoft.com/en-us/languages/csharp" skill="C#/.Net" />
+                <Skill logo="../logos/c-sharp.svg" link="https://dotnet.microsoft.com/en-us/languages/csharp" skill="C#" />
                 <Skill logo="../logos/python.svg" link="https://www.python.org/" skill="Python" />
                 <Skill logo="../logos/sql-server.svg" link="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" skill="SQL Server" />
                 <Skill logo="../logos/react.svg" link="https://react.dev/" skill="React" />
                 <Skill logo="../logos/angular.svg" link="https://angular.io/" skill="Angular" />
+                <Skill logo="../logos/dotnet.svg" link="https://dotnet.microsoft.com/en-us/apps/aspnet" skill="ASP.NET" />
                 <Skill logo={dark ? "../logos/socket-io-light.svg" : "../logos/socket-io.svg"} link="https://socket.io/" skill="Socket.io" />
                 <Skill logo="../logos/netlify.svg" link="https://www.netlify.com/" skill="Netlify" />
                 <Skill logo={dark ? "../logos/cypress-light.svg" : "../logos/cypress.svg"} link="https://www.cypress.io/" skill="Cypress" />
                 <Skill logo="../logos/git.svg" link="https://git-scm.com/" skill="Git" />
-                <Skill logo="../logos/bitbucket.svg" link="https://bitbucket.org/product" skill="Bitbucket" />
             </div>
         </div>
     )
