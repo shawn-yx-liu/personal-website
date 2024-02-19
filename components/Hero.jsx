@@ -10,8 +10,8 @@ export default function Hero({dark}) {
             <div className="hero-text">
                 <h1 className="hero-name">Hey, I'm Shawn</h1>
                 <p>
-                    I'm a frontend-leaning full stack developer with a focus on creating exceptional digital experiences that are accessible, visually appealing, and responsive.
-                    I have been creating web applications for 2 years and am always excited to explore new frontend technologies.
+                    Welcome to my website! I'm a dedicated full stack developer with a focus on creating exceptional digital experiences that are robust, accessible, responsive.
+                    I have been creating enterprise-grade web applications for 2 years and strive to explore new ways of bringing creative digital solutions to life.
                 </p>
                 <div className="hero-location">
                     <img alt="Location Pin" className="hero-location-icon icon" src="../icons/location.svg" />

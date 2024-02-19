@@ -15,10 +15,10 @@ export default function About({dark}) {
                     <p>
                         My journey as a programmer started at Carnegie Mellon University, where I developed analytical fundamentals as a Physics and Computer Science double major.
                         Since then, I've continued to grow as a software developer, taking on new challenges and building software for a handful of awesome companies along the way.
-                        Today, 6 years after printing my first "Hello World," my scope of work has expanded into creating cutting-edge web applications using modern frontend technologies like React, Angular, and much more.
+                        Today, 6 years after printing my first "Hello World," my scope of work has expanded into creating cutting-edge web applications using modern technologies like React, Angular, ASP.NET, and much more.
                     </p>
                     <p>
-                        When I'm not staring at a computer screen, you can usually find me hiking some remote trail in the Bay, sampling popup food shops, or baking a new recipe I found on Tasty.
+                        When I'm not staring at a computer screen, you can usually find me hiking some remote trail in the Bay Area, sampling popup food shops, or baking a new recipe I found on Tasty.
                     </p>
                 </div>
             </div>
