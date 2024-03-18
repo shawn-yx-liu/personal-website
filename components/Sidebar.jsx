@@ -32,7 +32,7 @@ export default function Sidebar({dark, sidebarOpen, toggle, toggleTheme}) {
                 </button>
             </div>
             <div className="sidebar-row">
-                <button className="resume-btn" onClick={() => window?.open("../files/shawn-resume-2024.pdf", "_blank")}>Download Resume</button>
+                <button className="resume-btn" onClick={() => window?.open("../files/shawn-liu-resume.pdf", "_blank")}>Download Resume</button>
             </div>
         </div>
     )
