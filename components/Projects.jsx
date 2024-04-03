@@ -13,8 +13,8 @@ function Project({parity, title, image, description, link, githubLink, skills}) 
                     {skills.map(skill => <p className="tag" key={skill}>{skill}</p>)}
                 </div>
                 <div className="project-links-container">
-                    <a className="project-link" href={link} target="_blank">View Site</a>
-                    <a className="project-link" href={githubLink} target="_blank">View Repo</a>
+                    { link && <a className="project-link" href={link} target="_blank">View Site</a> }
+                    { githubLink && <a className="project-link" href={githubLink} target="_blank">View Repo</a> }
                 </div>
             </div>
         </div>
@@ -28,22 +28,20 @@ export default function Projects({dark}) {
             <p>Some of my favorite projects:</p>
             <Project 
                 parity="0"
+                title="The Board" 
+                image="../images/the-board.jpg"
+                description="An operational dashboard built for a company-hosted hackathon. It keeps track of the status and details of restock orders for a pharmacy."
+                skills={["Angular", "TypeScript", "Chart.js", "GraphQL", "PostgreSQL"]}
+            />
+
+            <Project 
+                parity="1"
                 title="Brain Blitz" 
                 image="../images/brain-blitz.png"
                 link="https://brain-blitz-shawnliu.netlify.app/"
                 githubLink="https://github.com/shawn-yx-liu/brain-blitz"
                 description="A trivia game for testing your knowledge in a variety of topics. You can quiz yourself or compete with a friend for a higher score."
                 skills={["React", "Socket.io", "Express.js", "Netlify", "Heroku"]}
-            />
-
-            <Project 
-                parity="1"
-                title="User Dashboard" 
-                image="../images/user-dashboard.png"
-                link="https://user-dashboard-shawnliu.netlify.app/"
-                githubLink="https://github.com/shawn-yx-liu/user-dashboard"
-                description="A Google Chrome extension akin to Momentum. You can check the time, create a todo list, and check the price of your favorite stock."
-                skills={["Javascript", "HTML", "CSS", "Vite", "Git"]}
             />
         </div>
     )

@@ -19,13 +19,15 @@ export default function Skills({dark}) {
             <div className="skills-container">
                 <Skill logo="../logos/javascript.svg" link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" skill="Javascript" />
                 <Skill logo="../logos/typescript.svg" link="https://www.typescriptlang.org/" skill="Typescript" />
+                <Skill logo="../logos/react.svg" link="https://react.dev/" skill="React" />
+                <Skill logo="../logos/angular.svg" link="https://angular.io/" skill="Angular" />
                 <Skill logo="../logos/html.svg" link="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" skill="HTML" />
-                <Skill logo="../logos/sass.svg" link="https://sass-lang.com/" skill="Sass/Scss" />
+                <Skill logo="../logos/css.svg" link="https://developer.mozilla.org/en-US/docs/Web/CSS" skill="CSS" />
                 <Skill logo="../logos/c-sharp.svg" link="https://dotnet.microsoft.com/en-us/languages/csharp" skill="C#" />
                 <Skill logo="../logos/python.svg" link="https://www.python.org/" skill="Python" />
                 <Skill logo="../logos/sql-server.svg" link="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" skill="SQL Server" />
-                <Skill logo="../logos/react.svg" link="https://react.dev/" skill="React" />
-                <Skill logo="../logos/angular.svg" link="https://angular.io/" skill="Angular" />
+                <Skill logo="../logos/postgresql.svg" link="https://www.postgresql.org/" skill="PostgreSQL" />
+                <Skill logo="../logos/graphql.svg" link="https://graphql.org/" skill="GraphQL" />
                 <Skill logo="../logos/dotnet.svg" link="https://dotnet.microsoft.com/en-us/apps/aspnet" skill="ASP.NET" />
                 <Skill logo={dark ? "../logos/socket-io-light.svg" : "../logos/socket-io.svg"} link="https://socket.io/" skill="Socket.io" />
                 <Skill logo="../logos/netlify.svg" link="https://www.netlify.com/" skill="Netlify" />

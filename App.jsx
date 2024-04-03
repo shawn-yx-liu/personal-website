@@ -2,7 +2,7 @@ import React from 'react'
 import Components from './components';
 
 export default function App() {
-    const theme = localStorage.getItem("theme") || "light";
+    const theme = localStorage.getItem("theme") || "dark";
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
     const [darkMode, setDarkMode] = React.useState(theme === "dark");
 

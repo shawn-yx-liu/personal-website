@@ -477,9 +477,9 @@ button {
     border-radius: 0.75em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .skills-container {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         column-gap: 3em;
     }
 }
@@ -507,14 +507,14 @@ button {
     }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1300px) {
     .hero-name {
         font-size: 3.75rem;
     }
 
     .skills-container{
-        grid-template-columns: repeat(7, 1fr);
-        column-gap: 5em;
+        grid-template-columns: repeat(8, 1fr);
+        column-gap: 4em;
     }
 
     .about-container {
