@@ -30,7 +30,7 @@ export default function Projects({dark}) {
                 parity="0"
                 title="The Board" 
                 image="../images/the-board.jpg"
-                description="An operational dashboard built for a company-hosted hackathon. It keeps track of the status and details of restock orders for a pharmacy."
+                description="An operational dashboard built for a company hackathon. It keeps track of the status and details of restock orders for a pharmacy."
                 skills={["Angular", "TypeScript", "Chart.js", "GraphQL", "PostgreSQL"]}
             />
 
