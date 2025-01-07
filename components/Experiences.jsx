@@ -32,10 +32,16 @@ export default function Experiences({dark}) {
         <div className={`page page-even ${dark ? "dark dark-even" : ""}`} id="experiences">
             <p className="tag tag-lg">Experience</p>
             <p>Here's where I've worked at:</p>
-            <Experience logo="../logos/omnicell.svg" link="https://www.omnicell.com/" dates="May 2021 - Present" title="Junior Fullstack Developer">
+            <Experience logo="../logos/tiktok.svg" link="https://www.tiktok.com/en/" dates="July 2024 - Present" title="Software Engineer, Ads Measurement Signal">
                 <ul>
-                    <li><p>Designed and developed web apps to support large-scale routing of pharmaceutical drugs.</p></li>
-                    <li><p>Built a desktop app acting as a hardware simulator to support remote automated testing.</p></li>
+                    <li><p>Developed a feature for TikTok Events Manager that measures and diagnoses issues related to event match quality.</p></li>
+                    <li><p>Designed and implemented infrastucture revamp focused on reducing the delay of diagnosis warnings.</p></li>
+                </ul>
+            </Experience>
+            <Experience logo="../logos/omnicell.svg" link="https://www.omnicell.com/" dates="May 2021 - July 2024" title="Software Engineer">
+                <ul>
+                    <li><p>Designed and developed web apps to support large-scale routing of pharmaceutical drugs between hospitals in US health networks.</p></li>
+                    <li><p>Built and maintained a desktop app acting as a hardware simulator to support remote automated testing.</p></li>
                 </ul>
             </Experience>
             <Experience logo="../logos/hitachi.svg" link="https://www.hitachienergy.com/us/en" dates="May 2020 - August 2020" title="Software Process Management Intern">

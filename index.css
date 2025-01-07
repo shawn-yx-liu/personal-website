@@ -379,11 +379,18 @@ button {
 
 .experience-title {
     color: #111827;
-    margin: 1em 0;
+    margin: 0.25em 0;
+}
+
+.experience-date {
+    max-width: 12em;
+    margin: 0.25em 0;
 }
 
 .experience-logo {
+    width: 10em;
     height: 2em;
+    margin-bottom: 2em;
 }
 
 .experience-logo:hover {
@@ -543,7 +550,7 @@ button {
     }
 
     .experience-wide {
-        max-width: 25em;
+        max-width: 30em;
     }
 
     .project {
